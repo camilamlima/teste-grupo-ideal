@@ -1,0 +1,79 @@
+
+.topbar {
+    display: flex;
+    margin: 5px 0;
+}
+.topbar__menu{
+    display: flex;
+    list-style: none;
+    z-index: 10000;
+    padding-top: 25px;
+    padding-left: 298px;
+}
+.topbar__menu__item{
+    color: gray !important;
+}
+
+/*.topbar__menu__item{*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*    padding: 30px;*/
+/*    width: 100%;*/
+/*    font-size: 13px;*/
+/*    background-color: transparent;*/
+/*    text-decoration: none;*/
+/*    color: gainsboro;*/
+/*    font-weight: bolder;*/
+/*}*/
+
+.topbar__menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.topbar__menu ul li {
+  display: block;
+  position: relative;
+  float: left;
+  
+
+}
+
+/* This hides the dropdowns */
+.topbar__menu li ul { display: none; }
+
+.topbar__menu ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.topbar__menu ul li a:hover { background: #00008B; }
+
+/* Display the dropdown */
+.topbar__menu li:hover > ul {
+  display: block;
+  position: absolute;
+}
+.topbar__menu li:hover li { float: none; }
+.topbar__menu li:hover a { background: #00008B; }
+.topbar__menu li:hover li a:hover { background: #00008B; }
+.topbar__menu .main-navigation li ul li { border-top: 0; }
+
+/* Displays second level dropdowns to the right of the first level dropdown */
+.topbar__menu ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+/* Simple clearfix */
+.topbar__menu ul:before,
+.topbar__menu ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+.topbar__menu ul:after { clear: both; }

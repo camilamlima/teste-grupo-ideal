@@ -1,0 +1,31 @@
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) and (max-width: 991px) {
+    .contato ul, #content {
+       width: 645px;
+    }
+    .texto .text{
+        width: 330px;
+    
+    }
+    .topbar__menu{
+        padding-left: 48px;
+    }
+ }
+
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+     .contato ul, #content {
+       width: 745px;
+    }
+    .topbar__menu{
+        padding-left: 148px;
+    }
+ }
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .contato ul, #content {
+       width: 895px;
+    }
+ }

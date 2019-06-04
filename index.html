@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Grupo Ideal</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Asap:400,700,700i|Flamenco" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/menu.css" />
+        <link rel="stylesheet" href="./css/mediaquery.css" />
+        <link rel="stylesheet" href="./css/nivo-slider.css" type="text/css" media="screen" />
+    </head>
+    <body>
+        <div class="contato">
+            <ul class="contato__item">
+                <li>11 1234-1234</li>
+                <li>11 4321-4321</li>
+            </ul>
+        </div>
+        <div id="content">
+            <nav class="topbar">
+                <div class="topbar__logo">
+                   <img src="https://via.placeholder.com/188X76/00008B/FFFFFF" alt="Logo ">
+                </div>
+                <div class="topbar__menu">
+                    <ul>
+                        <li><a href="#" class="topbar__menu__item">HOME</a></li>
+                        <li><a href="#" class="topbar__menu__item">EMPRESA</a>
+                            <ul>
+                              <li><a href="#">SUBMENU 1</a></li>
+                              <li><a href="#">SUBMENU 1</a>
+                              <li><a href="#">SUBMENU 1</a></li>
+                              <li><a href="#">SUBMENU 1</a>
+                                <ul>
+                                  <li><a href="#">SUBMENU 2</a></li>
+                                  <li><a href="#">SUBMENU 2</a></li>
+                                  <li><a href="#">SUBMENU 2</a></li>
+                                  <li><a href="#">SUBMENU 2</a></li>
+                                </ul>
+                              </li>
+                             </ul>
+                        </li>
+                        <li><a href="#" class="topbar__menu__item">CLIENTES</a></li>
+                        <li><a href="#" class="topbar__menu__item">CONTATO</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+            
+        <div class="wrapper-slider">
+                <div id="content">
+                
+                    <div id="slider" class="nivoSlider">
+                        <img src="https://placeimg.com/894/290/any?1" data-thumb="https://placeimg.com/894/290/any?1" alt="" />
+                        <img src="https://placeimg.com/894/290/any?2" data-thumb="https://placeimg.com/894/290/any?2" alt="" />
+                        <img src="https://placeimg.com/894/290/any?3" data-thumb="https://placeimg.com/894/290/any?3" alt="" />
+                    </div>
+                </div>
+            </div>
+            
+        <div id="content">
+            <section class="texto">
+                <div class="text">
+                    <h2>TESTE DE HTML E CSS</h2>
+                    <p>Quesitos de avaliação:</p>
+                    <ul>
+                        <li>Organização do código(quanto mais limpo melhor);</li>
+                        <li>Nível de detalhismo (quanto mais identico melhor);</li>
+                        <li>Tempo de desenvolvimento(seja sincero ao enviar o tempo gasto);</li>
+                    </ul>
+                    </br>
+                    <p>Obrigado e boa sorte!</p>
+                </div>
+                <div>
+                    <img src="https://via.placeholder.com/325X212/00008B/FFFFFF"/> 
+                </div>
+            </section>
+            
+            <section class="destaque">
+                <h2>BOXES DE DESTAQUE</h2>
+                <div class="destaque__conteudo">
+                    <div class="destaque__imagem">
+                        <img src="https://via.placeholder.com/196X163/00008B/FFFFFF" alt="Logo ">
+                        <p>Acompanhe nosso <a href="#">Instagram</a></p>
+                    </div>
+    
+                    <div class="destaque__imagem">
+                        <img src="https://via.placeholder.com/196X163/00008B/FFFFFF" alt="Logo ">
+                        <p>Acompanhe nosso <a href="#">Blog</a></p>
+                    </div>
+    
+                    <div class="destaque__imagem">
+                        <img src="https://via.placeholder.com/196X163/00008B/FFFFFF" alt="Logo ">
+                        <p>Acompanhe nosso <a href="#"> Facebook</a></p>
+                    </div>
+    
+                    <div class="destaque__imagem">
+                        <img src="https://via.placeholder.com/196X163/00008B/FFFFFF" alt="Logo ">
+                        <p>Acompanhe nosso <a href="#"> Twitter</a></p>
+                    </div>             
+                </div>
+                    
+            </section> 
+        </div>
+        
+            
+        <footer>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">EMPRESA</a></li>
+                <li><a href="#">CLIENTES</a></li>
+                <li><a href="#">CONTATO</a></li>
+             </ul>
+        
+             <h5> RODAPE</h5>
+        </footer>
+
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                 controlNav: false,
+                 directionNav: false,
+            });
+        });
+    </script>
+</html>
